@@ -1,0 +1,67 @@
+{
+    "Rice": {
+        "water_requirement": "1200-1600 mm",
+        "growth_time": "120-150 days",
+        "image": "images/rice.png"
+    },
+    "Maize": {
+        "water_requirement": "500-800 mm",
+        "growth_time": "90-120 days",
+        "image": "images/Maize.png"
+    },
+    "Chickpea": {
+        "water_requirement": "400-600 mm",
+        "growth_time": "100-120 days",
+        "image": "images/Chickpea.png"
+    },
+    "Kidneybeans": {
+        "water_requirement": "300-500 mm",
+        "growth_time": "100-140 days",
+        "image": "./images/Kidneybeans.png"
+    },
+    "Pigeonpeas": {
+        "water_requirement": "600-800 mm",
+        "growth_time": "120-150 days",
+        "image": "images/Pigeonpeas.png"
+    },
+    "Mothbeans": {
+        "water_requirement": "250-400 mm",
+        "growth_time": "70-90 days",
+        "image": "images/Mothbeans.png"
+    },
+    "Mungbean": {
+        "water_requirement": "300-500 mm",
+        "growth_time": "60-75 days",
+        "image": "images/Mungbean.png"
+    },
+    "Blackgram": {
+        "water_requirement": "300-500 mm",
+        "growth_time": "70-90 days",
+        "image": "images/Blackgram.png"
+    },
+    "Lentil": {
+        "water_requirement": "300-400 mm",
+        "growth_time": "90-120 days",
+        "image": "./images/Lentil.png"
+    },
+    "Watermelon": {
+        "water_requirement": "400-600 mm",
+        "growth_time": "80-120 days",
+        "image": "images/Watermelon.png"
+    },
+    "Muskmelon": {
+        "water_requirement": "300-400 mm",
+        "growth_time": "70-90 days",
+        "image": "images/Muskmelon.png"
+    },
+    "Cotton": {
+        "water_requirement": "700-1200 mm",
+        "growth_time": "150-180 days",
+        "image": "images/Cotton.png"
+    },
+    "Jute": {
+        "water_requirement": "1200-1500 mm",
+        "growth_time": "120-150 days",
+        "image": "images/Jute.png"
+    }
+}

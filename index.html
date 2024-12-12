@@ -1,0 +1,82 @@
+
+
+
+<!-- Manul -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🌾 Crop Recommendation System</h1>
+        <div class="form">
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" placeholder="Enter temperature" required>
+
+            <label for="humidity">Humidity (%):</label>
+            <input type="number" id="humidity" placeholder="Enter humidity" required>
+
+            <label for="ph">Soil pH:</label>
+            <input type="number" id="ph" placeholder="Enter soil pH" step="0.1" required>
+
+            <button id="predict-button">Recommend Crop</button>
+        </div>
+        <div class="result" id="result">
+            <h2>Recommended Crop</h2>
+            <p id="crop-name"></p>
+            <p id="crop-details"></p>
+            <img id="crop-image" src="images/rice.jpg" alt="" style="display: none; max-width: 100%; height: auto;">
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+<!-- API -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module"></script>
+    <!-- <script src="firebaseauth.js" type="module"></script> -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>🌾 Crop Recommendation System</h1>
+        <div class="form">
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" placeholder="Temperature..." required>
+
+            <label for="humidity">Humidity (%):</label>
+            <input type="number" id="humidity" placeholder="Humidity..." required>
+
+            <label for="ph">Moisture</label>
+            <input type="number" id="moisture" placeholder="moisture..." step="0.1" required>
+
+            <label for="ph">Soil pH:</label>
+            <input type="number" id="ph" placeholder="pH..." step="0.1" required>
+
+
+            <button id="fetch-button">Fetch</button>
+            <button id="predict-button">Recommend Crop</button>
+        </div>
+        <div class="result" id="result">
+            <h2>Recommended Crop</h2>
+            <p id="crop-name"></p>
+            <p id="crop-details"></p>
+            <img id="crop-image" src="" alt="" style="display: none; max-width: 100%; height: auto;">
+        </div>
+    </div>
+</body>
+
+</html>
